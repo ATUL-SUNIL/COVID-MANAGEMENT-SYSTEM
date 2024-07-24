@@ -60,16 +60,17 @@ This is a COVID Management System built with Node.js, Express, and MongoDB. It i
    Create a `.env` file in the root directory and add the following:
 
  
+   ```plaintext
    PORT=3000
    JWT_SECRET=your_jwt_secret
    MONGO_URI=your_mongo_db_uri
-
+   ```
 
 4. **Start the server**
 
-
+   ```bash
    node server.js
-
+   ```
 
 ## API Endpoints
 
@@ -91,4 +92,10 @@ This is a COVID Management System built with Node.js, Express, and MongoDB. It i
 ## Testing
 
 You can test the API endpoints using Postman or any other API testing tool. Make sure to include the JWT token in the `Authorization` header for protected endpoints.
+
+
+
+
+
+
 
